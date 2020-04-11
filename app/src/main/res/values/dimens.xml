@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="contentPadding">8dp</dimen>
+    <dimen name="cardview_margin">8dp</dimen>
+    <dimen name="die_margin">4dp</dimen>
+    <dimen name="margin_first_row_top">12dp</dimen>
+    <dimen name="margin_first_row_top_extra">10dp</dimen>
+    <dimen name="margin_right">32dp</dimen>
+    <dimen name="margin_end_extra">48dp</dimen>
+    <dimen name="margin_start">16dp</dimen>
+</resources>

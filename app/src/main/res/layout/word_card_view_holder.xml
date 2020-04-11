@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardview_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginVertical="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    app:contentPadding="@dimen/contentPadding">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardViewWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/ivDice1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/ivDice2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_1"
+            tools:src="@drawable/dice_1" />
+
+        <ImageView
+            android:id="@+id/ivDice2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/ivDice3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivDice1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_2"
+            tools:src="@drawable/dice_2" />
+
+        <ImageView
+            android:id="@+id/ivDice3"
+            android:layout_width="77dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/ivDice4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivDice2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_3"
+            tools:src="@drawable/dice_3" />
+
+        <ImageView
+            android:id="@+id/ivDice4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toStartOf="@+id/ivDice5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivDice3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_4"
+            tools:src="@drawable/dice_4" />
+
+        <ImageView
+            android:id="@+id/ivDice5"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ivDice4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_5"
+            tools:src="@drawable/dice_5" />
+
+        <TextView
+            android:id="@+id/textViewWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="monospace"
+            android:text="WORD"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivDice3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DiceWare</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_words_yet">… no words yet …</string>
+    <string name="number_words">%d words</string>
+    <string name="entropy">%.1f bits</string>
+    <string name="remove_word_word">Remove word %s?</string>
+    <string name="yes">Yes</string>
+    <string name="reset">Reset</string>
+    <string name="password_long_enough">%d words?! This password is strong enough.</string>
+</resources>

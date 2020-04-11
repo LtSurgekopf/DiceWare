@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="rating0">#C82538</color>
+    <color name="rating1">#B13433</color>
+    <color name="rating2">#8D472B</color>
+    <color name="rating3">#675E24</color>
+    <color name="rating4">#45731E</color>
+    <color name="rating5">#2E7F18</color>
+</resources>
